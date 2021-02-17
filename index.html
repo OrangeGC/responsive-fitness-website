@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>健身馆</title>
+    <link rel="stylesheet" href="./libs/slick.css" />
+    <link rel="stylesheet" href="./libs/slick-theme.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- 下面一行引入搜索图标 -->
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+  </head>
+  <body>
+    <!-- top顶部开始 -->
+    <section id="hero">
+      <header>
+        <div class="container">
+          <div id="header-logo-mobile" class="top-gym-logo">
+            <a href="#">顶级<br />健身馆</a>
+          </div>
+        </div>
+
+        <!-- nav部分 -->
+        <nav>
+          <ul class="flex">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">课程</a></li>
+            <li id="header-logo" class="top-gym-logo">
+              <a href="#">顶级<br />健身</a>
+            </li>
+            <li><a href="#">导师</a></li>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">联系</a></li>
+            <li>
+              <button id="search"><span class="fa fa-search"></span></button>
+            </li>
+          </ul>
+        </nav>
+
+        <button id="hanmburger-menu">
+          <span class="strip"></span>
+          <span class="strip"></span>
+          <span class="strip"></span>
+        </button>
+      </header>
+
+      <div id="hero-slider">
+        <!-- 背景滑块 -->
+        <!-- https://onclickwebdesign.com/wp-content/uploads/main-slider-1.jpg -->
+        <!-- <div class="hero-slider-item" style="background-image: url('https://onclickwebdesign.com/wp-content/uploads/main-slider-1.jpg');"></div> -->
+        <div
+          class="hero-slider-item"
+          style="background-image: url('./image/main-slider-1.jpg')"
+        >
+          <div class="hero-slider-marketing">
+            <a href="#" class="youtube-button"
+              ><span class="fa fa-play"></span
+            ></a>
+            <h2>Be Fit,Top GYM</h2>
+            <button>了解更多</button>
+          </div>
+        </div>
+
+        <div
+          class="hero-slider-item"
+          style="background-image: url('./image/main-slider-2.jpg')"
+        >
+          <div class="hero-slider-marketing">
+            <a href="#" class="youtube-button"
+              ><span class="fa fa-play"></span
+            ></a>
+            <h2>Be Fit,Top Trainer</h2>
+            <button>了解更多</button>
+          </div>
+        </div>
+
+        <div
+          class="hero-slider-item"
+          style="background-image: url('./image/main-slider-3.jpg')"
+        >
+          <div class="hero-slider-marketing">
+            <a href="#" class="youtube-button"
+              ><span class="fa fa-play"></span
+            ></a>
+            <h2>Be Fit,Top Body</h2>
+            <button>了解更多</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- top顶部结束 -->
+
+    <!-- 内容产品展示部分开始 -->
+    <section id="features">
+      <div class="flex container">
+        <div class="box">
+          <img src="./image/feature-1.jpg" alt="Exercise Class" />
+          <div class="feature-info-container icon">
+            <img src="/icon/icon-1.png" alt="Star Tropht Icon" />
+          </div>
+          <h4>技能训练</h4>
+          <p>
+            体育锻炼显身手，健康快乐显身手。骑着单车绕两周，心情愉悦乐悠悠。围着公园跑跑步，精神世界数你富。如此生活人人羡慕，那就快快来加入，把健康道路宽宽的铺。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./image/feature-2.jpg" alt="Man doing dumbbell rows" />
+          <div class="feature-info-container icon">
+            <img src="./icon/icon-2.png" alt="Dumbbell Icon" />
+          </div>
+          <h4>力量训练</h4>
+          <p>
+            体育锻炼显身手，健康快乐显身手。骑着单车绕两周，心情愉悦乐悠悠。围着公园跑跑步，精神世界数你富。如此生活人人羡慕，那就快快来加入，把健康道路宽宽的铺。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./image/feature-3.jpg" alt="Woman doning leg press" />
+          <div class="feature-info-container icon">
+            <img src="./icon/icon-3.png" alt="Smoothie Icon" />
+          </div>
+          <h4>腿部训练</h4>
+          <p>
+            体育锻炼显身手，健康快乐显身手。骑着单车绕两周，心情愉悦乐悠悠。围着公园跑跑步，精神世界数你富。如此生活人人羡慕，那就快快来加入，把健康道路宽宽的铺。
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- 内容产品展示部分结束 -->
+
+    <!-- 服务部分开始 -->
+    <section id="services">
+      <h3>服务</h3>
+      <div class="flex container">
+        <div class="box">
+          <img src="./icon/services-icon-1.png" alt="Besketball Icon" />
+          <h4>弹性球</h4>
+          <p>从锻炼角度看，躺着不如坐着，坐着不如站着，站着不如走着。——卢梭</p>
+        </div>
+
+        <div class="box">
+          <img src="./icon/services-icon-2.png" alt="Bench Press Icon" />
+          <h4>自由升降</h4>
+          <p>人生要走万里路，迈好强身第一步。</p>
+        </div>
+
+        <div class="box">
+          <img src="./icon/services-icon-3.png" alt="Stopwatch Icon" />
+          <h4>瑜伽</h4>
+          <p>
+            “瑜伽对于身体的好处：减肥塑形，通过练习瑜伽可以使肌肉富有弹性，可以使脂肪燃烧，达到减肥的目的，同时使身材的比例更加合理。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="./icon/services-icon-4.png" alt="Mp3 Player Icon" />
+          <h4>动感单车</h4>
+          <p>
+            动感单车的减肥效果，还是比较好的。但是在骑动感单车的过程中，要注意根据自己的情况调整运动量
+          </p>
+        </div>
+      </div>
+
+      <button>查看所有服务</button>
+    </section>
+    <!-- 服务部分结束 -->
+
+    <!-- 训练师展示滑块部分开始 -->
+    <section id="trainers">
+      <h5>最好的</h5>
+      <h3>教练指导</h3>
+      <div class="container">
+        <div id="trainers-slider">
+          <div class="trainer-slider-item">
+            <img
+              src="./image/trainer-1.jpg"
+              alt="Rachel Smith Personal Trainer"
+            />
+            <h4>雷切尔·史密斯</h4>
+            <p>健美操教练</p>
+          </div>
+
+          <div class="trainer-slider-item">
+            <img
+              src="./image/trainer-2.jpg"
+              alt="Nick Andros Personal Trainer"
+            />
+            <h4>尼克·安德罗斯</h4>
+            <p>体形教练</p>
+          </div>
+
+          <div class="trainer-slider-item">
+            <img
+              src="./image/trainer-3.jpg"
+              alt="Larry Underwood Personal Trainer"
+            />
+            <h4>拉里·安德伍德</h4>
+            <p>力量训练教练</p>
+          </div>
+          <div class="trainer-slider-item">
+            <img
+              src="./image/trainer-1.jpg"
+              alt="Rachel Smith Personal Trainer"
+            />
+            <h4>雷切尔·史密斯</h4>
+            <p>健美操教练</p>
+          </div>
+
+          <div class="trainer-slider-item">
+            <img
+              src="./image/trainer-2.jpg"
+              alt="Nick Andros Personal Trainer"
+            />
+            <h4>尼克·安德罗斯</h4>
+            <p>体形教练</p>
+          </div>
+
+          <div class="trainer-slider-item">
+            <img
+              src="./image/trainer-3.jpg"
+              alt="Larry Underwood Personal Trainer"
+            />
+            <h4>拉里·安德伍德</h4>
+            <p>力量训练教练</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 训练师展示滑块部分结束 -->
+
+    <!-- schedule-services部分开始 -->
+    <section id="schedule-services">
+      <div class="flex container">
+        <div class="upcoming-classes-box">
+          <strong>下一节</strong>
+          <h4>时间表</h4>
+          <table>
+            <tr>
+              <td>
+                <img src="./icon/stopwatch.png" alt="Stopwatch" />
+              </td>
+              <td>瑜伽</td>
+              <td>11:00 - 12:00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="./icon/stopwatch.png" alt="Stopwatch" />
+              </td>
+              <td>踏板操</td>
+              <td>12:00 - 13:00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="./icon/stopwatch.png" alt="Stopwatch" />
+              </td>
+              <td>搏击操</td>
+              <td>13:00 - 14:00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="./icon/stopwatch.png" alt="Stopwatch" />
+              </td>
+              <td>有氧舞蹈</td>
+              <td>14:00 - 15:00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="./icon/stopwatch.png" alt="Stopwatch" />
+              </td>
+              <td>杠铃操</td>
+              <td>15:00 - 16:00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <img src="./icon/stopwatch.png" alt="Stopwatch" />
+              </td>
+              <td>伸展平衡</td>
+              <td>16:00 - 17:00</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="membership-cards-box">
+          <div class="inner-container">
+            <strong>NEXT</strong>
+            <h4>会员卡</h4>
+            <h2>25%<span>折扣</span></h2>
+          </div>
+        </div>
+
+        <div class="personal-trainer-box">
+          <strong>成为一个</strong>
+          <h4>私人教练</h4>
+          <p>
+            想要成为一名健身教练，那就需要去学习健身教练专业业知识。健身教练需要掌握专业的健身理论和技能。
+            技能方面需要掌握的有：抗阻力训练、有氧运动及器械使用、拉伸练习、形体训练。
+          </p>
+          <button>立即注册</button>
+        </div>
+        <!--  -->
+      </div>
+    </section>
+    <!-- schedule-services部分结束 -->
+
+    <!-- footer页脚部分开始 -->
+    <footer>
+      <div class="footer-container">
+        <div id="footer-logo" class="top-gym-logo">
+          <a href="#">顶级<br />健身馆</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">课程</a></li>
+            <li><a href="#">导师</a></li>
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">联系</a></li>
+          </ul>
+        </nav>
+
+        <div class="mailing-list">
+          <input type="text" placeholder="YOUR EMAIL" />
+          <button>SIGN UP</button>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="#"
+              ><span
+                class="fab fa-pirerest"
+                style="
+                  width: 13px;
+                  height: 13px;
+                  background-color: #fff;
+                  border-radius: 100%;
+                "
+              ></span
+            ></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa-facebook"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa-twitter"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa-youtube"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa-behance"></span></a>
+          </li>
+        </ul>
+        <img
+          src="https://onclickwebdesign.com/wp-content/uploads/footer-icon.png"
+          class="bicep"
+          alt="Bicep flex icon"
+        />
+
+        <small>
+          Copyright &copy;2021 This website is used for learning, signed
+          <span style="color: #fff">Zgc</span>
+          <span class="fa fa-heart"></span> Thanks to
+          <a href="https://colorlib.com">Colorlib</a>
+        </small>
+      </div>
+    </footer>
+    <!-- footer页脚部分结束 -->
+
+    <!-- 顶部搜索按钮与视频部分开始 -->
+    <div id="search-container">
+      <span id="search-container-hide" class="fa fa-times"></span>
+      <h3>搜索</h3>
+      <div class="search-container-input">
+        <input type="text" name="search" placeholder="“站内搜索”" /><button>
+          搜索
+        </button>
+      </div>
+    </div>
+
+    <div id="video-frame">
+      <span id="video-frame-hide" class="fa fa-times"></span>
+      <div class="video-frame-container">
+        <div class="video-frame-scaler">
+          <!-- b站视频 -->
+          <iframe
+            id="embed-video"
+            src="//player.bilibili.com/player.html?aid=80023777&bvid=BV1FJ41147VM&cid=136953673&page=1"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+          >
+          </iframe>
+
+          <!-- youtube视频 -->
+
+          <!-- <iframe
+            id="embed-video"
+            src="https://www.youtube.com/embed/SoZNz4KX8WA"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 顶部搜索按钮与视频部分结束 -->
+
+    <script src="./libs/jquery.min.js"></script>
+    <script src="./libs/slick.js"></script>
+    <!-- jq部分开始 -->
+    <script>
+      $(function () {
+        const headerNav = $("header nav");
+        const hanmburgerMenu = $("#hanmburger-menu");
+        const search = $("#search");
+        const searchContainerHide = $("#search-container-hide");
+        const searchContainer = $("#search-container");
+        const youtubeButton = $(".youtube-button");
+        const videoFrame = $("#video-frame ");
+        const videoFrameHide = $("#video-frame-hide");
+        const embedVideo = $("#embed-video");
+
+        $("#hero-slider").slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnFocus: false,
+          pauseOnHover: false,
+          fade: true,
+          speed: 1003,
+          cssEase: "linear",
+        });
+
+        $("#trainers-slider").slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
+          nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
+          responsive: [
+            {
+              breakpoint: 1100,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+              },
+            },
+
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToshow: 2,
+                arrows: false,
+              },
+            },
+
+            {
+              breakpoint: 530,
+              settings: {
+                slidesToShow: 1,
+                arrows: false,
+              },
+            },
+          ],
+        });
+
+        hanmburgerMenu.on("click", () => {
+          headerNav.toggle();
+        });
+        youtubeButton.on("click", () => {
+          videoFrame.css({
+            opacity: "1",
+            visibility: "visible",
+            "z-index": "100",
+          });
+        });
+        videoFrameHide.on("click", () => {
+          videoFrame.css({
+            opacity: "0",
+            visibility: "hidden",
+            "z-index": "0",
+          });
+        });
+        embedVideo.prop("src", embedVideo.prop("src"));
+
+        search.on("click", () => {
+          searchContainer.css({
+            opacity: "1",
+            visibility: "visible",
+            "z-index": "100",
+          });
+
+          searchContainerHide.on("click", () => {
+            searchContainer.css({
+              opacity: "0",
+              visibility: "hidden",
+              "z-index": "0",
+            });
+          });
+        });
+      });
+
+      //  <!-- jq部分结束 -->
+    </script>
+  </body>
+</html>
